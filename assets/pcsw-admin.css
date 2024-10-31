@@ -1,0 +1,93 @@
+.pcsw-header{
+	margin-bottom:30px;
+}
+.pcsw-version{
+	float:right;
+}
+#pcsw-settings-form{
+	padding:30px;
+	background-color:#fff;
+}
+#pcsw-settings-form h3{
+	font-weight:400;
+	font-size:20px;
+	margin-top:0;
+	margin-bottom:30px;
+}
+.pcsw-admin-field{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.pcsw-admin-field:not(:last-child){
+	margin-bottom:30px;
+}
+.pcsw-label{
+	font-size:18px;
+	color:#000;
+	font-weight:500;
+	margin-right:10px;
+	font-style:italic;
+	width:30%;
+	display:inline-block;
+}
+.pcsw-admin-field input[type="checkbox"]{
+	margin-top:0;
+}
+.pcsw-admin-field .pcsw-field-desc{
+	display:block;
+	font-size:10px;
+	margin-top:10px;
+	font-style:normal;
+}
+.pcsw-admin-field textarea{
+	width:300px;
+}
+.premium-field label,
+.premium-field select{
+	opacity:0.5;
+}
+.available-in-premium{
+	width:100%;
+	display:block;
+	font-size:14px;
+	margin-bottom:10px;
+	font-style:normal;
+	color:red;
+}
+.pcsw-premium-features{
+	background-color:rgba(0,0,0,0.7);
+	padding:20px;
+	color:#fff;
+	font-size:15px;
+	font-weight:500;
+	border-radius:16px;
+}
+.pcsw-premium-features h3{
+	color:#fff;
+}
+.pcsw-premium-features a{
+	color:#fff;
+	text-decoration:underline;
+	font-size:17px;
+}
+.pcsw-save-setting{
+	margin-top:30px;
+}
+.pcsw-save-settings{
+	color:#fff;
+	padding:10px 30px;
+	font-size:16px;
+	display:none;
+}
+.pcsw-save-settings.pcsw-success{
+	display:block;
+	background-color:green;
+}
+.pcsw-save-settings.pcsw-error{
+	display:block;
+	background-color:red;
+}
+.pcsw-admin-short-desc-field{
+	display:none;
+}
